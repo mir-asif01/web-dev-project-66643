@@ -1,0 +1,37 @@
+.navbar-responsive{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.services{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 10px;
+    gap: 25px;
+}
+
+.footer{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 500px)  {
+    .main-container{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .services{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 25px;
+    }
+    .footer{
+        width: 100%;
+    }
+}

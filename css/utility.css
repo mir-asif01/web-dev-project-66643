@@ -1,0 +1,40 @@
+.slider-img{
+    height: 90vh;
+}
+.slider-text-bg{
+    background-color: rgba(248, 246, 244, 0.9);
+}
+.list{
+    background-color: black;
+    color: rgb(159, 159, 159);
+}
+
+.card-border{
+    border: 1px solid gray;
+    padding: 3px;
+    height: 370px;
+}
+
+.client{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.client-img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.service-list{
+    list-style: none;
+}
+.service-list li{
+    font-weight: 500;
+}
+.footer{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    background: rgb(242, 240, 240);
+}
